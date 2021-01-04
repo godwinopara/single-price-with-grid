@@ -26,9 +26,24 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.attribution a {
+  color: hsl(180, 46%, 40%);
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.codedby-descp {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 0 1rem 0 0.4rem;
+  color: rgb(41, 41, 41);
+}
+
 button {
   padding: 1.7rem 10rem;
   border: none;
+  outline: none;
   border-radius: 5px;
   margin: 3rem 2rem 0 0;
   font-size: 1.5rem;
@@ -41,8 +56,6 @@ button {
   height: 100%;
   width: 90%;
   margin: 2rem auto;
-  /* border: 1px solid white;
-  border-radius: 20px; */
 }
 
 .box {
@@ -87,7 +100,7 @@ button {
   padding-top: 1rem;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
   /* .pricing-container {
     width: 60%;
   } */
@@ -121,8 +134,14 @@ button {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .pricing-container {
     width: 60%;
+  }
+
+  .attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
